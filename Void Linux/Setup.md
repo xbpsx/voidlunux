@@ -46,6 +46,10 @@ sudo update-grub
 ```
 
 Настраиваем звук [[pipewire]]
+Настраиваем обои [[swaybg]]
+
+
+
 
 
 
