@@ -58,6 +58,7 @@ HandleLidSwitchExternalPower=ignore
 HandleLidSwitchDocked=ignore
 ```
 
+**Для виртуализации**, нам нужно установить [[QEMU - KVM]]
 
 
 
