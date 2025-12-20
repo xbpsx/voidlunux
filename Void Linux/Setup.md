@@ -48,6 +48,16 @@ sudo update-grub
 Настраиваем звук [[pipewire]]
 Настраиваем обои [[swaybg]]
 
+Чтобы ноутбук не уходил в сон при закрытие крышки, нужно добавить три пункта в `elogind`
+
+```bash
+sudo nano /etc/elogind/logind.conf
+
+HandleLidSwitch=ignore
+HandleLidSwitchExternalPower=ignore
+HandleLidSwitchDocked=ignore
+```
+
 
 
 
