@@ -64,24 +64,7 @@ HandleLidSwitchDocked=ignore
 
 Для кра сивого терминала есть [[fastfetch]]  и можно заменить shell [[fish]]
 
-Чтобы блютуз сразу работал, и не нужно было его врубать самостоятельно, нужно
-
-```bash
-sudo nano /etc/bluetooth/main.conf
-```
-
-Найдите в секции `[Policy]` строку `AutoEnable`.
-
-Установите значение: **`AutoEnable=true`** (убедитесь, что строка не закомментирована символом `#`)
-
-И в настройках `niri` добавить
-
-```kdl
-# config.kdl
-
-spawn-at-startup "sh" "-c" "rfkill unblock bluetooth && blueman-applet"
-```
-
+Все настройки [[bluetooth]] тут
 
 
 
