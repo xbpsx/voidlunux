@@ -74,6 +74,16 @@ sudo nano /etc/bluetooth/main.conf
 
 Установите значение: **`AutoEnable=true`** (убедитесь, что строка не закомментирована символом `#`)
 
+И в настройках `niri` добавить
+
+```kdl
+# config.kdl
+
+spawn-at-startup "sh" "-c" "rfkill unblock bluetooth && blueman-applet"
+```
+
+
+
 
 
 
