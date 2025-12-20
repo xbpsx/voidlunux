@@ -19,4 +19,10 @@ sudo xbps-install -Syu
 sudo xbps-install -y neovim
 ```
 
+Нам нужно создать конфиг файл `lua`
+
+```bash
+#/home/xbpsx/.config/nvim
+init.lua
+```
 
