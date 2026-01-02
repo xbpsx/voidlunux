@@ -66,9 +66,11 @@ HandleLidSwitchDocked=ignore
 
 Все настройки [[bluetooth]] тут. Вся настройка к [[niri]]
 
+Запуск `niri`
 
-
-
+```bash
+dbus-run-session niri
+```
 
 
 

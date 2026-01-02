@@ -4,6 +4,10 @@
 niri msg windows
 ```
 
+```bash
+dbus-run-session niri
+```
+
 Для редактирвоания `niri`
 
 ```bash
